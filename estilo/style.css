@@ -3,19 +3,32 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+
 }
-.logo{
+.cabecario{
     width: 100vw;
     height: 89px;
     background-color: #212343;
 }
-
-.imglogo{
+#logo{
     margin-top: 30px;
-    margin-left: 40px;
+    padding-left: 30px;
 }
-.imgbanner{
-    width: 100vw;
-    height: 300px;
-    
+
+.banner{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../images/header_bg.png);/* prestar a atencao pois colocando a imagem dessa forma ela fica de fundo e colocando como a teg img ela fica na frente */
 }
+.center{
+    width: 200px;
+    height: 200px;
+    margin-right: 300px;
+    float: right; /*aqui eu consegui mudar a div de lado rapidamente */
+    background-color: black;
+}
+
+
