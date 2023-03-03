@@ -24,11 +24,11 @@
     background-image: url(../images/header_bg.png);/* prestar a atencao pois colocando a imagem dessa forma ela fica de fundo e colocando como a teg img ela fica na frente */
 }
 .center{
-    width: 200px;
-    height: 200px;
-    margin-right: 300px;
+    width: 400px;
+    height: 100%;
+    margin-right: 100px;
     float: right; /*aqui eu consegui mudar a div de lado rapidamente */
-    background-color: black;
+    background-color: white;
 }
 
 
