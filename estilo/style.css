@@ -25,7 +25,7 @@
 }
 .center{
     width: 400px;
-    height: 100%;
+    height: calc(100% + 30PX);
     margin-right: 100px;
     float: right; /*aqui eu consegui mudar a div de lado rapidamente */
     background-color: white;
